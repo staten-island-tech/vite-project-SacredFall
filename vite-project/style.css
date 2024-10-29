@@ -1,0 +1,19 @@
+:root{
+  --light-red: #9b1c31;
+  --light-blue: #4169e1;
+  --primary: var(--light-blue);
+  --secondary:var(--light-red);
+  --font-color: #000000
+}
+
+.body{
+  background-color: var(--primary);
+}
+
+.warm{
+  --primary: var(--light-red)
+}
+
+.cold{
+  --primary: var(--light-blue)
+}
